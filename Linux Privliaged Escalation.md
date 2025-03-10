@@ -16,7 +16,20 @@ Create a root bash script: echo "/bin/bash" > thm
 ```
 
 # Do we have access to /etc/password and /etc/shadow ? 
-hashcat the password hash? 
+
+If we have write access, just create our own priv user, if not.
+
+## hashcat the password hash? 
+
+`unshadow /etc/passwd /etc/shadow > hashes.txt`
+
+## Work out hash type e.g If it's $6$, it's SHA-512, $5$ is SHA-256, $1$ is MD5.
+* https://hashcat.net/wiki/doku.php?id=example_hashes
+* https://hashes.com/en/tools/hash_identifier
+* https://www.kali.org/tools/hash-identifier/
+## Run Hashcat (for SHA-512, mode 1800):
+
+`hashcat -m 1800 hashes.txt wordlist.txt`
 
 ## Privilege Escalation tools
 - LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
