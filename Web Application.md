@@ -1,5 +1,16 @@
 
-- [ ] nmap targert address
+- [ ] Dorking needed? 
+- [ ] Nmap targert address
+- [ ] Robots.txt? sitemap.xml
+- [ ] Case Sensitive 
 - [ ] Gobuster root directory
 - [ ] Gobuster main parent directory's
 - [ ] Gobuster with common file extensions 
+- [ ] Inject points?
+- [ ] Injection type SQL, NoSQL, XML, XXE, Server-side template
+- [ ] List Frameworks?
+- [ ] Authentication type?
+- [ ] Source code comments, scripts, folders in links not found in GoBuster
+- [ ] Source code interesting findings, points of XXS? 
+- [ ] Path traversal?
+- [ ] Cookies? what session auth e.g JWT? 
