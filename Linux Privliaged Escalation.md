@@ -1,3 +1,6 @@
+## Check what current user can run as sudo 
+- sudo -l
+- [gtfobins](https://gtfobins.github.io/)
 ## Privilege Escalation tools
 
 - LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
