@@ -8,9 +8,14 @@
 - [ ] Gobuster with common file extensions 
 - [ ] Inject points?
 - [ ] Injection type SQL, NoSQL, XML, XXE, Server-side template
+- [ ] Brute forcing? 
 - [ ] List Frameworks?
 - [ ] Authentication type?
 - [ ] Source code comments, scripts, folders in links not found in GoBuster
-- [ ] Source code interesting findings, points of XXS? 
+- [ ] Source code interesting findings, points of XSS? 
 - [ ] Path traversal?
 - [ ] Cookies? what session auth e.g JWT? 
+- [ ] Points of Access control vulnerabilities?
+- [ ] Business logic vulnerabilities?
+- [ ] Security cookies / Headers?  
+- [ ] HTTP Host Header, Smuggling, Cache poisoning
