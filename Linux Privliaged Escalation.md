@@ -1,14 +1,14 @@
-## Check what current user can run as sudo 
+# Check what current user can run as sudo 
 - `sudo -l`
 - [gtfobins](https://gtfobins.github.io/)
 
-## Find files that have SUID or SGID bits set.  
+# Find files that have SUID or SGID bits set.  
 `find / -type f -perm -04000 -ls 2>/dev/null`
 
 # Can we increase the privilege level of a process or binary with “Capabilities”? 
 `getcap -r / 2>/dev/null`  
 
-## Modify path? 
+# Modify path? 
 Add folders to PATH:  
 ```
 export PATH=/tmp:$PATH
@@ -31,7 +31,7 @@ If we have write access, just create our own priv user, if not.
 
 `hashcat -m 1800 hashes.txt wordlist.txt`
 
-## Privilege Escalation tools
+# Privilege Escalation tools
 - LinPeas: https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
 - LinEnum: https://github.com/rebootuser/LinEnum
 - LES (Linux Exploit Suggester): https://github.com/mzet-/linux-exploit-suggester
