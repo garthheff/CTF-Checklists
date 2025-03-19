@@ -6,6 +6,7 @@
 - [ ] Gobuster root directory
 - [ ] Gobuster main parent directory's
 - [ ] Gobuster with common file extensions 
+- [ ] Fuzz sub directories? 
 - [ ] Inject points?
 - [ ] Injection type SQL, NoSQL, XML, XXE, Server-side template
 - [ ] Brute forcing? 
