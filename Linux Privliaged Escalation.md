@@ -38,3 +38,12 @@ If we have write access, just create our own priv user, if not.
 - Linux Smart Enumeration: https://github.com/diego-treitos/linux-smart-enumeration
 - Linux Priv Checker: [https://github.com/linted/linuxprivchecker](https://github.com/linted/linuxprivchecker)
 
+# Steal root / users ssh key? 
+
+/root/.ssh/id_rsa
+
+make sure to change permission to 600 once we have it,
+chmod 600 id_rsa
+
+ssh -i id_rsa root@lookup.thm
+
