@@ -1,6 +1,7 @@
 # Check what current user can run as sudo 
 - `sudo -l`
 - [gtfobins](https://gtfobins.github.io/)
+- 
 
 # Find files that have SUID or SGID bits set.  
 `find / -type f -perm -04000 -ls 2>/dev/null`
