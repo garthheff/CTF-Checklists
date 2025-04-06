@@ -16,7 +16,6 @@ binwalk broken in attackbox fix
 
 pip3 uninstall capstone
 pip3 install capstone==4.0.2
-
 ```
 
 ```
@@ -26,5 +25,4 @@ binwalk cutie.png DECIMAL HEXADECIMAL DESCRIPTION
 
 ```
 binwalk -e cutie.png
-
 ```
