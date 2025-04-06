@@ -53,3 +53,12 @@ Search for log and txt files with string e.g tyler
 ```
 find / -type f \( -name "*.txt*" -o -name "*.log*" \) -exec timeout 10s grep -i 'tyler' {} + 2>/dev/null | more
 ```
+
+# Upgrade to an interactive shell 
+
+```
+no tty present and no askpass program specified
+
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+```
