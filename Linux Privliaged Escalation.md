@@ -47,3 +47,9 @@ chmod 600 id_rsa
 
 ssh -i id_rsa root@lookup.thm
 
+# File search
+
+Search for log and txt files with string e.g tyler
+```
+find / -type f \( -name "*.txt*" -o -name "*.log*" \) -exec timeout 10s grep -i 'tyler' {} + 2>/dev/null | more
+```
